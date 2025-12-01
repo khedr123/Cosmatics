@@ -1,8 +1,9 @@
+import 'package:cosmatics_app/view/category.dart';
+import 'package:cosmatics_app/view/create_password.dart';
 import 'package:flutter/material.dart';
-import 'package:newproject/Screens/login_screen.dart';
 
-import 'Screens/create_password.dart';
-import 'Screens/verification_screen.dart';
+import 'features/home/presentation/screens/home.dart';
+import 'features/main/main_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,13 +12,12 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      home: CreatePassword(),
+      home: CategoryView(),
     );
   }
 }

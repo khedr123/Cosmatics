@@ -1,10 +1,10 @@
 {
   "roots": [
-    "newproject"
+    "cosmatics_app"
   ],
   "packages": [
     {
-      "name": "newproject",
+      "name": "cosmatics_app",
       "version": "1.0.0+1",
       "dependencies": [
         "cupertino_icons",
