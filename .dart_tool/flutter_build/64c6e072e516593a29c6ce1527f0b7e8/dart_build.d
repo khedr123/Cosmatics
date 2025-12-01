@@ -1,0 +1,1 @@
+ /Users/basharkhedr/Desktop/Cosmatics/.dart_tool/flutter_build/64c6e072e516593a29c6ce1527f0b7e8/dart_build_result.json: 

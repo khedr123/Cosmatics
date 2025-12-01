@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:newproject/core/shared_widgets/app_button.dart';
 import 'package:pinput/pinput.dart';
 
 class VerificationScreen extends StatelessWidget {
@@ -51,6 +52,11 @@ class VerificationScreen extends StatelessWidget {
                 Text('    Didn’t receive a code? '),
                 Text('Resend', style: TextStyle(color: Colors.red)),
               ],
+            ),
+            SizedBox(
+              width: 268,
+              height: 65,
+              child: AppButton(title: 'Done', onPressed: () {}),
             ),
           ],
         ),

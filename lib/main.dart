@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:newproject/Screens/login_screen.dart';
 
+import 'Screens/create_password.dart';
 import 'Screens/verification_screen.dart';
 
 void main() {
@@ -13,10 +15,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
 
-      home: VerificationScreen(),
+      home: CreatePassword(),
     );
   }
 }
-
-

@@ -16,7 +16,7 @@ final String title;
       ),
       child:  Text(title,
 
-        style: TextStyle(fontSize: 18, color: Colors.white),
+        style: TextStyle(fontSize: 18, color: Colors.white,fontWeight: FontWeight.bold),
       ),
     );
   }
