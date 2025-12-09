@@ -2,7 +2,6 @@ import 'package:cosmatics_app/view/category.dart';
 import 'package:cosmatics_app/view/create_password.dart';
 import 'package:flutter/material.dart';
 
-import 'features/home/presentation/screens/home.dart';
 import 'features/main/main_view.dart';
 
 void main() {
